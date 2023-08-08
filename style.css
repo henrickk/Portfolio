@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #112e42;
+  color: white;
+  height: 100%;
+}
+
+main {
+  margin-top: 66px;
+}
+
+#header {
+  display: flex;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: #081b29;
+
+  margin-bottom: 2rem;
+  top: 0;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-family: "MedievalSharp", cursive;
+  font-size: 65px;
+}
+
+.container {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.grid {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+.containerGrid {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+section {
+  padding: 10%;
+}
+
+.title {
+  width: 600px;
+  height: 150px;
+  margin: auto 25px;
+  font-size: 70px;
+}
+
+.title2 {
+  margin-bottom: 50px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.imgAvatar {
+  width: 440px;
+}
+
+.containerSobre {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foto2 {
+  width: 440px;
+  border: 5px solid #081b29;
+  border-radius: 50%;
+}
+
+.txtSobre {
+  width: 50%;
+  justify-content: flex-end;
+  font-size: 40px;
+}
+
+.carrocel {
+  background-color: #081b29;
+}
+
+ul.slides {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 200px;
+  height: 350px;
+  background: red;
+  margin: 10px;
+}
