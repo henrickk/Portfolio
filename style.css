@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
 
+div{
+  display: block;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -107,18 +111,38 @@ section {
   font-size: 40px;
 }
 
-.carrocel {
-  background-color: #081b29;
+.carousel-container {
+  width: 100%;
+  background: #081b29;
+  padding: 5px;
+  position: relative;
+  margin-bottom: 50px;
 }
 
-ul.slides {
-  display: flex;
-  justify-content: space-around;
+.carousel {
+  overflow: auto;
+  /*overflow: hidden; <--- colocar substituir após criar os botões no js*/
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  
+}
+
+.content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 .card {
   width: 200px;
-  height: 350px;
-  background: red;
-  margin: 10px;
+  height: 290px;
+  background-color: rgb(44, 44, 44);
+  margin: 5px;
+}
+
+.title3 {
+  text-align: center;
+  font-size: 70px;
 }
